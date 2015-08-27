@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/doing">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="19 июля 2015"
+              android:id="@+id/dateView" android:paddingLeft="4sp" android:textSize="25sp"
+              android:background="#c6e4fbfb" android:textColor="#ff525252" android:layout_alignParentRight="true"
+              android:layout_alignParentLeft="true"></TextView>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Срочно сделать что-нибудь после того как сделаешь "
+            android:id="@+id/doingView"
+            android:textSize="30sp" android:background="#c6e4fbfb"
+            android:textColor="#ff121414" android:layout_below="@+id/dateView" android:layout_alignParentLeft="true"
+            android:paddingLeft="4sp" android:singleLine="false"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_below="@+id/doingView" android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
